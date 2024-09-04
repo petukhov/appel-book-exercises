@@ -1,0 +1,4 @@
+(executable
+ (public_name ch1_ex2)
+ (name main)
+ (libraries sexplib stdio))
