@@ -1,6 +1,6 @@
 (lang dune 3.16)
 
-(name hello)
+(name modern-compiler-implementation-exercises)
 
 (generate_opam_files true)
 
@@ -16,7 +16,7 @@
 (documentation https://url/to/documentation)
 
 (package
- (name hello)
+ (name modern-compiler-implementation-exercises)
  (synopsis "A short synopsis")
  (description "A longer description")
  (depends ocaml dune)
