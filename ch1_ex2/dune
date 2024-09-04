@@ -1,4 +1,5 @@
 (executable
  (public_name ch1_ex2)
  (name main)
+ (flags (:standard -w -unused-value-declaration))
  (libraries sexplib stdio))
