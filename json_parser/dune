@@ -8,4 +8,4 @@
  (name main)
  (modules json parser lexer main)
  (flags (:standard -w -unused-value-declaration))
- (libraries core core_unix.command_unix))
+ (libraries core_unix.command_unix))
