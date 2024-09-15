@@ -17,7 +17,7 @@ You can find detailed installation instructions in the [OCaml installation guide
 To execute the solution for exercise 2 from chapter 1, run the following command:
 
 ```bash
-opam exec -- dune exec ch1_ex2
+opam exec -- dune exec ch1_ex2 -w
 ```
 
 For other exercises, you can use a similar command by replacing ch1_ex2 with the corresponding executable name for each specific exercise.
