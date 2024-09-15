@@ -1,0 +1,11 @@
+<tag1>
+    hello
+    <tag2>
+        <tag3>abc1</tag3>
+        <tag4>abc2</tag4>
+    </tag2>
+    <tag2>
+        <tag3>value1</tag3>
+        <tag4>value2</tag4>
+    </tag2>
+</tag1>
