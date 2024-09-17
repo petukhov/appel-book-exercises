@@ -1,3 +1,6 @@
-type 'a xml_ast = String of string | Tag of string * 'a list
+type xml =
+  | Tag of string * xml list
+  | String of string 
+  | EMPTY 
 
-let abc = Tag ("tag1", [ String "a"; Tag ("tag2", [ String "a"; String "b"; String "c" ]); String "c" ])
+let example = Tag ("tag1", [ String "a"; Tag ("tag2", [ String "a"; String "b"; String "c" ]); String "c" ])
