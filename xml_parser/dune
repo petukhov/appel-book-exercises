@@ -6,6 +6,6 @@
 (executable
  (public_name xml_parser)
  (name main)
- (modules ast123 parser lexer main)
+ (modules ast parser lexer main)
  (flags (:standard -w -unused-value-declaration))
  (libraries core_unix.command_unix))
