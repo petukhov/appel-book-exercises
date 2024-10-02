@@ -1,11 +1,7 @@
-(menhir
- (modules parser))
-
-(ocamllex lexer)
+(ocamllex (modules lexer))
 
 (executable
  (public_name tiger_lexer)
  (name main)
- (modules ast parser lexer main)
  (flags (:standard -w -unused-value-declaration))
- (libraries core_unix.command_unix))
+ (libraries core stdio core_unix.command_unix))
